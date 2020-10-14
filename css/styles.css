@@ -1,8 +1,57 @@
-p{
+p {
     color: red;
 }
 
-.theme_image{
+.theme_image {
     width: 100%;
     margin-top: 60px;
+}
+
+.header {
+    /* background-color: chartreuse;*/
+    height: 44px;
+}
+
+.display {
+    /* display */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 100%;
+    /* identical to box height, or 80px */
+    text-align: center;
+    /* light / $primary-text */
+    color: #4A5568;
+}
+
+.total-cost {
+    /* paragraph */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 26px */
+    text-align: center;
+    /* light / $secondary-text */
+    color: #A0AEC0;
+}
+
+.settings-block {
+    border: solid 1px #4A5568;
+    margin-top: 8px;
+    height: 64px;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.start {
+    width: 100%;
+    margin-top: 24px;
+    border: none;
+    border-radius: 8px;
+    height: 64px;
+    background-color: #34AAFF;
+    color: #FFF;
 }
