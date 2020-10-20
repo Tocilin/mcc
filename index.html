@@ -1,61 +1,75 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-
-    <title>Meeting Cost Calculator</title>
-</head>
-
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 d-none d-md-block">
-                <img src="images/theme_image.png" class="theme_image">
-            </div>
-            <div class="col-md-6">
-                <!-- Header: menu and account -->
-                <div class="header">Header</div>
-
-                <!-- Main display -->
-                <div class="results">
-                    <p class="display">$0.00</p>
-                    <p class="total-cost">Estimated cost of the meeting:<span>$0.00</span></p>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous"
+        >
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Meeting Cost Calculator</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-none d-md-block">
+                    <img src="images/theme_image.png" class="theme_image">
                 </div>
-
-                <div class="settings">
-                    <div class="settings-block duration">
-                        <p class="text-12">Meeting duration</p>
-                        <span class="text-40">30</span>
-                        <span class="text-12">min</span>
-                        <div class="icon">
-                            <img src="asdf.jpg" alt="">
-                        </div>
+                <div class="col-md-6">
+                    <!-- Header: menu and account -->
+                    <div class="header">Header</div>
+                    <!-- Main display -->
+                    <div class="results">
+                        <p class="display">$0.00</p>
+                        <p class="total-cost">
+                            Estimated cost of the meeting:
+                            <span>$0.00</span>
+                        </p>
                     </div>
-                    <div class="settings-block participants">5 people</div>
-                    <div class="settings-block salary">$50</div>
+                    <div class="settings">
+                        <!-- block meeting duration -->
+                        <div class="settings-block duration">
+                            <div class="icon">
+                                <img src="images/icon-clock.svg" alt="">
+                            </div>
+                            <p class="text-12">Meeting duration</p>
+                            <span class="text-40">30</span>
+                            <span class="text-12">min</span>
+                        </div>
+                        <!-- block participants -->
+                        <div class="settings-block duration">
+                            <div class="icon">
+                                <img src="images/icon-participants.svg" alt="">
+                            </div>
+                            <p class="text-12">Number of participants</p>
+                            <span class="text-40">6</span>
+                        </div>
+                        <!-- block salary -->
+                        <div class="settings-block duration">
+                            <div class="icon">
+                                <img src="images/icon-salary.svg" alt="">
+                            </div>
+                            <p class="text-12">Average salary</p>
+                            <span class="text-40">$50</span>
+                            <span class="text-12">per hour</span>
+                        </div>
+                        
+                    </div>
+                    <button class="start">Start Meeting</button>
                 </div>
-
-                <button class="start">Start Meeting</button>
+                <div class="col-md-1"></div>
             </div>
-
-            <div class="col-md-1"></div>
         </div>
-    </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
-
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
 </html>
