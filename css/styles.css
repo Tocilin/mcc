@@ -58,12 +58,12 @@ body {
     border: solid 1px #D8E5F3;
 }
 
-.text-12 {
+.text-16 {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     line-height: 0.5em;
-    font-size: 12px;
+    font-size: 16px;
     color: #A0AEC0;
 }
 
@@ -91,4 +91,19 @@ body {
     height: 48px;
     float: right;
     background-position: -30px;
+}
+
+li {
+    
+  
+  list-style-type: none;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+li .checkmark {
+    width: 32px;
+    height: 32px;
+    /* хуй знает как покрасить SVG кодом в другой цвет */
+    color: red;
 }
